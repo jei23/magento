@@ -1,0 +1,160 @@
+* {
+  padding:0;
+  margin:0;
+  font-size: auto;
+}
+
+body{
+  text-align: center;
+  font: 300 20px/1.7;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.header{
+   height: 450px;
+   background:  url(dummy-header.jpg) no-repeat center top;
+   background-size: cover;
+
+}
+
+.navbar {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.navbar{
+    height: 63px;
+    background: #2c3e50;
+}  
+
+.navbar a{
+   color: #ffffff;
+   padding: 0 20px;
+   text-decoration: none;
+   text-transform: uppercase;
+   font: 20px "Roboto"
+}
+
+.content{
+   padding: 80px ;
+}
+
+.who{
+   background: #2c3e50;
+   color:#fff;  
+}
+
+.title{
+
+   margin-bottom: 40px;
+   font: 60px "Roboto";
+   text-transform: uppercase;
+}
+
+ p{
+   margin-bottom: 40px;
+}
+ 
+.who p{
+   max-width: 1055px;
+   margin: 0 auto;
+}
+
+.services{
+   background: #34495e;
+   color: #fff;
+}
+
+.list-services {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.list-services li{
+   display: flex;
+   text-decoration: none;
+}
+
+.tarifas{
+   background: url(dummy-tarifas.jpg) no-repeat center top;
+   background-size: cover;
+   color: #ffffff;
+}
+
+.content{
+   margin: 0 auto;
+}
+
+.tarifas p{
+   max-width: 450px;
+}
+
+.tarifas{
+   text-align: left;
+}
+
+.btn{
+   border: 2px solid #fff;
+   padding: 10px 40px;
+   display: inline-block;
+   text-decoration: none;
+   color: #fff;
+}
+
+.localizacion{
+   color: #34495e;
+   padding-bottom: 0;
+}
+.localizacion map img{
+   max-width: 100% ;
+   width: 100%;
+}
+
+.list-services figure{
+   position: relative;
+   width: 150px;
+   height: 190px;
+}
+
+.list-services figure::after{
+   content:"";
+   position: absolute;
+   top: 0;
+   left: 0;
+   border-radius: 50%;
+   z-index:0;
+   background: #fff;
+   width: 150px;
+   height: 150px;
+}
+
+.list-services li{
+   padding: 0 30px;
+}
+
+.list-services figcaption{
+   position: relative;
+   left: 0;
+   top: 0;
+   bottom: -0px;
+}
+
+.list-services img{
+   position: relative;
+   z-index: 1;
+}
+
+.list-services figure{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: column;
+}
